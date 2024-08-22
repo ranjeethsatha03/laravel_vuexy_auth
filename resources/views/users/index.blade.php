@@ -43,22 +43,22 @@
                                                 @foreach ($role->users as $user)
                                                     <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top"
                                                         title="{{ $user->name }}" class="avatar avatar-sm pull-up">
-                                                        <img class="rounded-circle" src="{{ asset('assets/img/avatars/1.png') }}"
+                                                            <img class="rounded-circle" src="{{ $user->profile_image ? asset('uploads/profile_images/' . $user->profile_image) : asset('assets/img/avatars/1.png') }}" 
                                                             alt="Avatar">
                                                     </li>
                                                     <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top"
                                                     title="{{ $user->name }}" class="avatar avatar-sm pull-up">
-                                                    <img class="rounded-circle" src="{{ asset('assets/img/avatars/2.png') }}"
+                                                        <img class="rounded-circle" src="{{ $user->profile_image ? asset('uploads/profile_images/' . $user->profile_image) : asset('assets/img/avatars/2.png') }}" 
                                                         alt="Avatar">
                                                 </li>
                                                 <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top"
                                                 title="{{ $user->name }}" class="avatar avatar-sm pull-up">
-                                                <img class="rounded-circle" src="{{ asset('assets/img/avatars/3.png') }}"
+                                                    <img class="rounded-circle" src="{{ $user->profile_image ? asset('uploads/profile_images/' . $user->profile_image) : asset('assets/img/avatars/3.png') }}" 
                                                     alt="Avatar">
                                             </li>
                                             <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top"
                                             title="{{ $user->name }}" class="avatar avatar-sm pull-up">
-                                            <img class="rounded-circle" src="{{ asset('assets/img/avatars/4.png') }}"
+                                                <img class="rounded-circle" src="{{ $user->profile_image ? asset('uploads/profile_images/' . $user->profile_image) : asset('assets/img/avatars/4.png') }}" 
                                                 alt="Avatar">
                                         </li>
                                                 @endforeach

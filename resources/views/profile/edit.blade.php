@@ -5,19 +5,19 @@
     
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-6">
             <div class="form-control" style="border: none;">
-                <div class="max-w-xl">
+                        <div class="mb-3 col-sm-12">
                     @include('profile.partials.update-profile-information-form')
                 </div>
             </div>
 
             <div class="form-control" style="border: none;">
-                <div class="max-w-xl">
+                    <div class="mb-3 col-sm-12">
                     @include('profile.partials.update-password-form')
                 </div>
             </div>
 
             <div class="form-control" style="border: none;">
-                <div class="max-w-xl">
+                    <div class="mb-3 col-sm-12">
                     @include('profile.partials.delete-user-form')
                 </div>
             </div> 

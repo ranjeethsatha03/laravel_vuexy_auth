@@ -23,6 +23,10 @@ class RolePermissionSeeder extends Seeder
             'view user',
             'update user',
             'delete user',
+            'create payment setting',
+            'view payment setting',
+            'update payment setting',
+            'delete payment setting'
         ];
 
         // Create permissions or retrieve existing ones

@@ -26,8 +26,7 @@
   <link rel="stylesheet" href="{{ asset('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}" />
   <link rel="stylesheet" href="{{ asset('assets/vendor/libs/typeahead-js/typeahead.css') }}" />
   <link rel="stylesheet" href="{{ asset('assets/vendor/css/pages/page-auth.css') }}" />
-  <script src="{{ asset('assets/vendor/js/helpers.js') }}"></script>
-  <script src="{{ asset('assets/js/config.js') }}"></script>
+
 
   <!-- Include Scripts -->
   <script src="{{ asset('assets/vendor/js/helpers.js') }}"></script>

@@ -40,6 +40,18 @@ return [
     'facebook' => [
     'client_id' => env('FACEBOOK_CLIENT_ID'),
     'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
-    'redirect' => 'http://127.0.0.1:8000/auth/facebook/callback',
+    'redirect' => 'https://127.0.0.1:8000/auth/facebook/callback',
+    ],
+
+    'instagram' => [
+    'client_id' => env('INSTAGRAM_CLIENT_ID'),
+    'client_secret' => env('INSTAGRAM_CLIENT_SECRET'),
+    'redirect' => 'http://127.0.0.1:8000/auth/instagram/callback',
+    ],
+
+    'twitter' => [
+    'client_id' => env('TWITTER_CLIENT_ID'),
+    'client_secret' => env('TWITTER_CLIENT_SECRET'),
+    'redirect' => 'http://127.0.0.1:8000/auth/twitter/callback',
     ],
 ];

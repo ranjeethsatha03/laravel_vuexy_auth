@@ -1,4 +1,5 @@
-<div class="form-control">
+<div class="card mb-4">
+    <div class="form-control" style="border: none;">
 <section>
     <header>
         <h2 class="text-lg font-bold text-900">
@@ -47,4 +48,5 @@
         </div>
     </form>
 </section>
+</div>
 </div>

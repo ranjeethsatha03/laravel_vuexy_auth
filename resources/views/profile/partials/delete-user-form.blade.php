@@ -1,4 +1,5 @@
-<div class="form-control" >
+<div class="card mb-4">
+<div class="form-control" style="border: none;">
 <section class="space-y-6">
     <header>
         <h2 class="text-lg font-bold text-900">
@@ -13,6 +14,7 @@
     <x-danger-button
         x-data=""
         x-on:click.prevent="$dispatch('open-modal', 'confirm-user-deletion')"
+        class="btn btn-danger"
     >{{ __('Delete Account') }}</x-danger-button>
 
     <x-modal name="confirm-user-deletion" :show="$errors->userDeletion->isNotEmpty()" focusable>
@@ -54,4 +56,5 @@
         </form>
     </x-modal>
 </section>
+</div>
 </div>
